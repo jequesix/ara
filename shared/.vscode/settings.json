@@ -1,0 +1,8 @@
+{
+    "C_Cpp.errorSquiggles": "disabled",
+    "C_Cpp.inactiveRegionOpacity": 1,
+    "terminal.integrated.scrollback": 10000,
+    "editor.tabSize": 2,
+    "editor.detectIndentation": false,
+    "workbench.editor.restoreViewState": true
+}
