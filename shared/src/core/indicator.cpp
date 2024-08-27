@@ -18,8 +18,6 @@ void AraIndicator::ledFlash() {
 #endif
 
 
-#if defined (__linux)
-
 #ifdef DISPLAY_ACPS
 void AraIndicator::displayAcps() {
   acps++;
@@ -30,6 +28,6 @@ void AraIndicator::displayAcps() {
     acps = 0;
   }
 }
-#endif
+
 
 #endif
