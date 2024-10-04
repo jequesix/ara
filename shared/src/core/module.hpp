@@ -1,9 +1,5 @@
 #pragma once
 
-#if defined (__AVR)
-#include <Arduino.h>
-#endif
-
 #include "types.hpp"
 
 
@@ -54,7 +50,6 @@ class ChainModule : public Module {
   protected:
     AraOutput main(InputParameters* parameters) { return {araexcode::DONE}; }
 
-    OutputParameters* calleeOutput;
     uint8_t currentCycle = 0;
     uint8_t numCycles;
 };

@@ -1,11 +1,7 @@
 #pragma once
 
-#if defined(__AVR)
-#include <Arduino.h>
-#elif defined(__linux)
-#include <malloc.h>
-#include <memory.h>
-#include <math.h>
+#if defined(__linux)
+#include <cstring>
 #endif
 
 #include <AraDebug.h>
