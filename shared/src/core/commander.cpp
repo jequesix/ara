@@ -131,7 +131,7 @@ void AraCommander::execCmd() {
           default:
             if (moduleExec.output != nullptr) {
               // give output to caller
-              moduleNodes[cmd->callerId].module->araGivePeasantOutput(
+              moduleNodes[cmd->callerId].module->araGiveCalleeOutput(
                 cmd->calleeId, moduleExec.output
               );
             }

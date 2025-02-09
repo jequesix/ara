@@ -3,10 +3,7 @@
 #endif
 
 #include <AraDebug.h>
-#include "core/commander.hpp"
-
-#include "modules/instance-test.hpp"
-#include "modules/instance-caller.hpp"
+#include <commander.hpp>
 
 
 #if defined (__AVR)
@@ -18,30 +15,11 @@ int main() {
 
 
   // commander initialization
-  // this is where to put the number of modules
-  AraCommander ara = AraCommander(21);
+  // this is where you put the number of modules
+  AraCommander ara = AraCommander(0);
 
-  ara.addModule(new InstanceCaller(), true);
-  ara.addModule(new InstanceTest());
-  ara.addModule(new InstanceTest());
-  ara.addModule(new InstanceTest());
-  ara.addModule(new InstanceTest());
-  ara.addModule(new InstanceTest());
-  ara.addModule(new InstanceTest());
-  ara.addModule(new InstanceTest());
-  ara.addModule(new InstanceTest());
-  ara.addModule(new InstanceTest());
-  ara.addModule(new InstanceTest());
-  ara.addModule(new InstanceTest());
-  ara.addModule(new InstanceTest());
-  ara.addModule(new InstanceTest());
-  ara.addModule(new InstanceTest());
-  ara.addModule(new InstanceTest());
-  ara.addModule(new InstanceTest());
-  ara.addModule(new InstanceTest());
-  ara.addModule(new InstanceTest());
-  ara.addModule(new InstanceTest());
-  ara.addModule(new InstanceTest());
+  // add modules here
+
 
 
   #if defined (__AVR)

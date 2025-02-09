@@ -22,8 +22,9 @@ class Module {
     virtual void araExecRecurrent() {}
 
     // give callee output to caller
-    virtual void araGivePeasantOutput(uint8_t calleeId, OutputParameters* calleeOutput) {}
+    virtual void araGiveCalleeOutput(uint8_t calleeId, OutputParameters* calleeOutput) {}
 
+    // get ara pointer
     AraCommander* ara() const { return _ara; }
   
   private:
@@ -39,17 +40,17 @@ class ChainModule : public Module {
     ChainModule(uint8_t _numCycles) : numCycles(_numCycles) {}
 
     AraOutput araExecCmd(InputParameters* parameters) {
-      if (++currentCycle <= numCycles) {
+      if (++cycle <= numCycles) {
         return main(parameters);
       }
       
-      currentCycle = 0;
+      cycle = 0;
       return {araexcode::DONE};
     }
 
   protected:
     AraOutput main(InputParameters* parameters) { return {araexcode::DONE}; }
 
-    uint8_t currentCycle = 0;
+    uint8_t cycle = 0;
     uint8_t numCycles;
 };
