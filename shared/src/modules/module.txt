@@ -1,0 +1,41 @@
+Header (some-module.h): -------------------------
+#ifndef SomeModule
+#define SomeModule
+
+#include <module.hpp>
+#include <commander.hpp>
+
+
+class SomeModule : public Module {
+  protected:
+    // initialize stuff that requires ara (e.g. adding a command) here
+    virtual void araInit() override;
+
+    // called when a command asks for it
+    virtual AraOutput araExecCmd(InputParameters* parameters) override;
+
+    // called every ara cycle
+    virtual void araExecRecurrent() override;
+
+    // give callee output to caller
+    void araGiveCalleeOutput(uint8_t calleeId, OutputParameters* calleeOutput) override;
+};
+
+#endif
+-------------------------------------------------
+
+
+Source (some-module.cpp): -----------------------
+#include "some-module.hpp"
+
+
+void SomeModule::araInit() {}
+
+AraOutput SomeModule::araExecCmd(InputParameters* parameters) {
+  return {araexcode::DONE}
+}
+
+void SomeModule::araExecRecurrent() {}
+
+void SomeModule::araGiveCalleeOutput(uint8_t calleeId, OutputParameters* calleeOutput) {}
+-------------------------------------------------
