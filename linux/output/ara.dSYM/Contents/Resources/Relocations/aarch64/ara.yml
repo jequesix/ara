@@ -1,0 +1,63 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/jerome/Documents/Backups/Code/Robotics/AraEngine/Code/ara/linux/output/ara'
+relocations:
+  - { offsetInCU: 0x5C11, offset: 0x5C11, size: 0x8, addend: 0x0, symName: __ZStL8__ioinit, symObjAddr: 0x2E1E8, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x635C, offset: 0x635C, size: 0x8, addend: 0x0, symName: __ZL7mgrTest, symObjAddr: 0x2E1F0, symBinAddr: 0x100008008, symSize: 0x0 }
+  - { offsetInCU: 0x63D8, offset: 0x63D8, size: 0x8, addend: 0x0, symName: __ZL13mgrTestCaller, symObjAddr: 0x2E208, symBinAddr: 0x100008020, symSize: 0x0 }
+  - { offsetInCU: 0x6570, offset: 0x6570, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x124, symBinAddr: 0x100001B08, symSize: 0x84 }
+  - { offsetInCU: 0x65C8, offset: 0x65C8, size: 0x8, addend: 0x0, symName: __ZN13MgrTestCallerC1Ev, symObjAddr: 0xE0, symBinAddr: 0x100001AC4, symSize: 0x44 }
+  - { offsetInCU: 0x6600, offset: 0x6600, size: 0x8, addend: 0x0, symName: __ZN7MgrTestC1Ev, symObjAddr: 0xA4, symBinAddr: 0x100001A88, symSize: 0x3C }
+  - { offsetInCU: 0x663E, offset: 0x663E, size: 0x8, addend: 0x0, symName: __ZN6ModuleC2Ev, symObjAddr: 0x74, symBinAddr: 0x100001A58, symSize: 0x30 }
+  - { offsetInCU: 0x6657, offset: 0x6657, size: 0x8, addend: 0x0, symName: __ZN6Module20araGivePeasantOutputEhP16OutputParameters, symObjAddr: 0x54, symBinAddr: 0x100001A38, symSize: 0x20 }
+  - { offsetInCU: 0x669D, offset: 0x669D, size: 0x8, addend: 0x0, symName: __ZN6Module16araExecRecurrentEv, symObjAddr: 0x40, symBinAddr: 0x100001A24, symSize: 0x14 }
+  - { offsetInCU: 0x66C5, offset: 0x66C5, size: 0x8, addend: 0x0, symName: __ZN6Module10araExecCmdEP15InputParameters, symObjAddr: 0x14, symBinAddr: 0x1000019F8, symSize: 0x2C }
+  - { offsetInCU: 0x66FD, offset: 0x66FD, size: 0x8, addend: 0x0, symName: __ZN6Module7araInitEv, symObjAddr: 0x0, symBinAddr: 0x1000019E4, symSize: 0x14 }
+  - { offsetInCU: 0x3FE3, offset: 0xA6FF, size: 0x8, addend: 0x0, symName: __ZStL8__ioinit, symObjAddr: 0x2FB98, symBinAddr: 0x100008050, symSize: 0x0 }
+  - { offsetInCU: 0x4363, offset: 0xAA7F, size: 0x8, addend: 0x0, symName: __ZN9FastQueueIN12AraCommander6AraCmdEE3addES1_, symObjAddr: 0xB20, symBinAddr: 0x100002758, symSize: 0xA8 }
+  - { offsetInCU: 0x439A, offset: 0xAAB6, size: 0x8, addend: 0x0, symName: __ZN9FastQueueIN12AraCommander6AraCmdEE6removeEv, symObjAddr: 0xA80, symBinAddr: 0x1000026B8, symSize: 0xA0 }
+  - { offsetInCU: 0x43C2, offset: 0xAADE, size: 0x8, addend: 0x0, symName: __ZN9FastQueueIN12AraCommander6AraCmdEE3getEv, symObjAddr: 0xA30, symBinAddr: 0x100002668, symSize: 0x50 }
+  - { offsetInCU: 0x43EA, offset: 0xAB06, size: 0x8, addend: 0x0, symName: __ZN9FastQueueIN12AraCommander6AraCmdEE4nextEv, symObjAddr: 0x9C4, symBinAddr: 0x1000025FC, symSize: 0x6C }
+  - { offsetInCU: 0x445D, offset: 0xAB79, size: 0x8, addend: 0x0, symName: __ZN9FastQueueIN12AraCommander6AraCmdEEC1Et, symObjAddr: 0x8DC, symBinAddr: 0x100002514, symSize: 0xE8 }
+  - { offsetInCU: 0x4496, offset: 0xABB2, size: 0x8, addend: 0x0, symName: __ZN12AraCommander6AraCmdC1Ev, symObjAddr: 0x8C0, symBinAddr: 0x1000024F8, symSize: 0x1C }
+  - { offsetInCU: 0x44A4, offset: 0xABC0, size: 0x8, addend: 0x0, symName: __ZN12AraCommander6addCmdEhhP15InputParameters, symObjAddr: 0x810, symBinAddr: 0x100002448, symSize: 0xB0 }
+  - { offsetInCU: 0x450B, offset: 0xAC27, size: 0x8, addend: 0x0, symName: __ZN12AraCommander7execCmdEv, symObjAddr: 0x660, symBinAddr: 0x100002298, symSize: 0x1B0 }
+  - { offsetInCU: 0x456A, offset: 0xAC86, size: 0x8, addend: 0x0, symName: __ZN12AraCommander12execRoutinesEv, symObjAddr: 0x5DC, symBinAddr: 0x100002214, symSize: 0x84 }
+  - { offsetInCU: 0x45B7, offset: 0xACD3, size: 0x8, addend: 0x0, symName: __ZN12AraCommander8mainLoopEv, symObjAddr: 0x538, symBinAddr: 0x100002170, symSize: 0xA4 }
+  - { offsetInCU: 0x45E2, offset: 0xACFE, size: 0x8, addend: 0x0, symName: __ZN12AraCommander11initModulesEv, symObjAddr: 0x498, symBinAddr: 0x1000020D0, symSize: 0xA0 }
+  - { offsetInCU: 0x462F, offset: 0xAD4B, size: 0x8, addend: 0x0, symName: __ZN12AraCommander3runEv, symObjAddr: 0x3F0, symBinAddr: 0x100002028, symSize: 0xA8 }
+  - { offsetInCU: 0x465A, offset: 0xAD76, size: 0x8, addend: 0x0, symName: __ZN12AraCommander9addModuleEP6Moduleb, symObjAddr: 0x21C, symBinAddr: 0x100001E54, symSize: 0x1D4 }
+  - { offsetInCU: 0x46D6, offset: 0xADF2, size: 0x8, addend: 0x0, symName: __ZN12AraCommanderD1Ev, symObjAddr: 0x1E8, symBinAddr: 0x100001E20, symSize: 0x34 }
+  - { offsetInCU: 0x46FE, offset: 0xAE1A, size: 0x8, addend: 0x0, symName: __ZN12AraCommanderD2Ev, symObjAddr: 0x1B4, symBinAddr: 0x100001DEC, symSize: 0x34 }
+  - { offsetInCU: 0x4749, offset: 0xAE65, size: 0x8, addend: 0x0, symName: __ZN12AraCommanderC1Eh, symObjAddr: 0xE8, symBinAddr: 0x100001D20, symSize: 0xCC }
+  - { offsetInCU: 0x4779, offset: 0xAE95, size: 0x8, addend: 0x0, symName: __ZN12AraCommanderC2Eh, symObjAddr: 0x1C, symBinAddr: 0x100001C54, symSize: 0xCC }
+  - { offsetInCU: 0x47CD, offset: 0xAEE9, size: 0x8, addend: 0x0, symName: __ZN12AraCommander10ModuleNodeC1Ev, symObjAddr: 0x0, symBinAddr: 0x100001C38, symSize: 0x1C }
+  - { offsetInCU: 0x3E3F, offset: 0xED25, size: 0x8, addend: 0x0, symName: __ZStL8__ioinit, symObjAddr: 0x2C6E0, symBinAddr: 0x100008051, symSize: 0x0 }
+  - { offsetInCU: 0x11B, offset: 0xF07D, size: 0x8, addend: 0x0, symName: __ZNSt6chrono8durationIxSt5ratioILl1ELl1000000000EEE4zeroEv, symObjAddr: 0x0, symBinAddr: 0x1000028A0, symSize: 0x28 }
+  - { offsetInCU: 0xD7B, offset: 0xFCDD, size: 0x8, addend: 0x0, symName: __ZNSt6chrono8durationIxSt5ratioILl1ELl1000EEEC1IxvEERKT_, symObjAddr: 0x34C, symBinAddr: 0x100002BEC, symSize: 0x28 }
+  - { offsetInCU: 0xD77, offset: 0xFCD9, size: 0x8, addend: 0x0, symName: __ZNSt6chrono20__duration_cast_implINS_8durationIxSt5ratioILl1ELl1000EEEES2_ILl1ELl1000000EExLb1ELb0EE6__castIxS2_ILl1ELl1000000000EEEES4_RKNS1_IT_T0_EE, symObjAddr: 0x2FC, symBinAddr: 0x100002B9C, symSize: 0x50 }
+  - { offsetInCU: 0xDBD, offset: 0xFD1F, size: 0x8, addend: 0x0, symName: __ZNSt6chronomiIxSt5ratioILl1ELl1000000000EExS2_EENSt11common_typeIJNS_8durationIT_T0_EENS4_IT1_T2_EEEE4typeERKS7_RKSA_, symObjAddr: 0x298, symBinAddr: 0x100002B38, symSize: 0x64 }
+  - { offsetInCU: 0xE2D, offset: 0xFD8F, size: 0x8, addend: 0x0, symName: __ZNKSt6chrono10time_pointINS_3_V212steady_clockENS_8durationIxSt5ratioILl1ELl1000000000EEEEE16time_since_epochEv, symObjAddr: 0x280, symBinAddr: 0x100002B20, symSize: 0x18 }
+  - { offsetInCU: 0xE55, offset: 0xFDB7, size: 0x8, addend: 0x0, symName: __ZNKSt6chrono8durationIxSt5ratioILl1ELl1000EEE5countEv, symObjAddr: 0x268, symBinAddr: 0x100002B08, symSize: 0x18 }
+  - { offsetInCU: 0xE79, offset: 0xFDDB, size: 0x8, addend: 0x0, symName: __ZNSt6chrono13duration_castINS_8durationIxSt5ratioILl1ELl1000EEEExS2_ILl1ELl1000000000EEEENSt9enable_ifIXsrNS_13__is_durationIT_EE5valueES8_E4typeERKNS1_IT0_T1_EE, symObjAddr: 0x24C, symBinAddr: 0x100002AEC, symSize: 0x1C }
+  - { offsetInCU: 0xED6, offset: 0xFE38, size: 0x8, addend: 0x0, symName: __ZNSt6chronomiINS_3_V212steady_clockENS_8durationIxSt5ratioILl1ELl1000000000EEEES6_EENSt11common_typeIJT0_T1_EE4typeERKNS_10time_pointIT_S8_EERKNSC_ISD_S9_EE, symObjAddr: 0x210, symBinAddr: 0x100002AB0, symSize: 0x3C }
+  - { offsetInCU: 0xFA4, offset: 0xFF06, size: 0x8, addend: 0x0, symName: __ZNSt6chrono10time_pointINS_3_V212steady_clockENS_8durationIxSt5ratioILl1ELl1000000000EEEEEC1Ev, symObjAddr: 0x1E4, symBinAddr: 0x100002A84, symSize: 0x2C }
+  - { offsetInCU: 0xF6F, offset: 0xFED1, size: 0x8, addend: 0x0, symName: __ZN5Timer5resetEv, symObjAddr: 0x1A8, symBinAddr: 0x100002A48, symSize: 0x3C }
+  - { offsetInCU: 0xF9A, offset: 0xFEFC, size: 0x8, addend: 0x0, symName: __ZN5Timer7reachedEv, symObjAddr: 0x108, symBinAddr: 0x1000029A8, symSize: 0xA0 }
+  - { offsetInCU: 0xFF3, offset: 0xFF55, size: 0x8, addend: 0x0, symName: __ZN5TimerC1Et, symObjAddr: 0xBC, symBinAddr: 0x10000295C, symSize: 0x4C }
+  - { offsetInCU: 0x1023, offset: 0xFF85, size: 0x8, addend: 0x0, symName: __ZN5TimerC2Et, symObjAddr: 0x70, symBinAddr: 0x100002910, symSize: 0x4C }
+  - { offsetInCU: 0x1045, offset: 0xFFA7, size: 0x8, addend: 0x0, symName: __ZNKSt6chrono8durationIxSt5ratioILl1ELl1000000000EEE5countEv, symObjAddr: 0x58, symBinAddr: 0x1000028F8, symSize: 0x18 }
+  - { offsetInCU: 0x1069, offset: 0xFFCB, size: 0x8, addend: 0x0, symName: __ZNSt6chrono15duration_valuesIxE4zeroEv, symObjAddr: 0x50, symBinAddr: 0x1000028F0, symSize: 0x8 }
+  - { offsetInCU: 0x10EF, offset: 0x10051, size: 0x8, addend: 0x0, symName: __ZNSt6chrono8durationIxSt5ratioILl1ELl1000000000EEEC1IxvEERKT_, symObjAddr: 0x28, symBinAddr: 0x1000028C8, symSize: 0x28 }
+  - { offsetInCU: 0x10E5, offset: 0x10047, size: 0x8, addend: 0x0, symName: __ZNSt6chrono8durationIxSt5ratioILl1ELl1000000000EEE4zeroEv, symObjAddr: 0x0, symBinAddr: 0x1000028A0, symSize: 0x28 }
+  - { offsetInCU: 0x3B6D, offset: 0x13BC8, size: 0x8, addend: 0x0, symName: __ZStL8__ioinit, symObjAddr: 0x16D38, symBinAddr: 0x100008052, symSize: 0x0 }
+  - { offsetInCU: 0x3DB6, offset: 0x13E11, size: 0x8, addend: 0x0, symName: __ZN7MgrTest16araExecRecurrentEv, symObjAddr: 0x194, symBinAddr: 0x100002CCC, symSize: 0x28 }
+  - { offsetInCU: 0x3DDE, offset: 0x13E39, size: 0x8, addend: 0x0, symName: __ZN7MgrTest10araExecCmdEP15InputParameters, symObjAddr: 0xF4, symBinAddr: 0x100002C2C, symSize: 0xA0 }
+  - { offsetInCU: 0x3E3F, offset: 0x13E9A, size: 0x8, addend: 0x0, symName: __ZnwmPv, symObjAddr: 0xA4, symBinAddr: 0x100002C14, symSize: 0x18 }
+  - { offsetInCU: 0x3FE4, offset: 0x17E9D, size: 0x8, addend: 0x0, symName: __ZStL8__ioinit, symObjAddr: 0x2E0A8, symBinAddr: 0x100008053, symSize: 0x0 }
+  - { offsetInCU: 0x41A1, offset: 0x1805A, size: 0x8, addend: 0x0, symName: __ZN13MgrTestCaller20araGivePeasantOutputEhP16OutputParameters, symObjAddr: 0xC0, symBinAddr: 0x100002DC4, symSize: 0x5C }
+  - { offsetInCU: 0x41E7, offset: 0x180A0, size: 0x8, addend: 0x0, symName: __ZN13MgrTestCaller16araExecRecurrentEv, symObjAddr: 0x58, symBinAddr: 0x100002D5C, symSize: 0x68 }
+  - { offsetInCU: 0x420F, offset: 0x180C8, size: 0x8, addend: 0x0, symName: __ZNK6Module3araEv, symObjAddr: 0x40, symBinAddr: 0x100002D44, symSize: 0x18 }
+  - { offsetInCU: 0x3B67, offset: 0x1BC4F, size: 0x8, addend: 0x0, symName: __ZStL8__ioinit, symObjAddr: 0x15A70, symBinAddr: 0x100008054, symSize: 0x0 }
+  - { offsetInCU: 0x3CA8, offset: 0x1BD90, size: 0x8, addend: 0x0, symName: __Z7freeMemv, symObjAddr: 0x0, symBinAddr: 0x100002E70, symSize: 0x78 }
+...
