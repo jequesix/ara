@@ -7,7 +7,7 @@
 
 #if defined (__AVR)
 #include <Arduino.h>
-#elif defined(__linux)
+#elif defined(__linux) || defined(__APPLE__)
 #include <iostream>
 #endif
 
@@ -22,7 +22,7 @@ size_t freeMem();
 #define debug_msg_f(str) {Serial.print(F(str));}
 #define debug_msg_nl_f(str) {Serial.println(F(str));}
 
-#elif defined(__linux)
+#elif defined(__linux) || defined(__APPLE__)
 
 #define debug_msg(str) {std::cout << str;}
 #define debug_msg_nl(str) {std::cout << str << std::endl;}

@@ -2,7 +2,7 @@
 
 #if defined (__AVR)
 #include <Arduino.h>
-#elif defined (__linux)
+#elif defined(__linux) || defined(__APPLE__)
 #include <chrono>
 using namespace std::chrono;
 #endif
@@ -25,7 +25,7 @@ class Timer {
     #if defined (__AVR)
     uint16_t lastTime;
     uint16_t currentTime;
-    #elif defined (__linux)
+    #elif defined(__linux) || defined(__APPLE__)
     steady_clock::time_point lastTime;
     steady_clock::time_point currentTime;
     #endif

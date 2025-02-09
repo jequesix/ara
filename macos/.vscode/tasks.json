@@ -5,7 +5,8 @@
       "label": "C/C++: build ara",
       "command": "LC_MESSAGES=C",
       "args": [
-        "/opt/homebrew/bin/g++-14",
+        "/usr/bin/g++",
+        "-std=c++17",
         "-fdiagnostics-color=always",
         "-DDEBUG",
         "-g",

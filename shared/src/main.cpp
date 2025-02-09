@@ -12,7 +12,7 @@
 #if defined (__AVR)
 void setup() {
   debug_init(1000000);
-#elif defined (__linux)
+#elif defined(__linux) || defined(__APPLE__)
 int main() {
 #endif
 
@@ -50,7 +50,7 @@ int main() {
 
   ara.run();
 
-  #if defined (__linux)
+  #if defined(__linux) || defined(__APPLE__)
   return 0;
   #endif
 }

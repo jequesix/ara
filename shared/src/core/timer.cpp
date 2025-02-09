@@ -17,7 +17,7 @@ bool Timer::reached() {
   return false;
 }
 
-#elif defined (__linux)
+#elif defined(__linux) || defined(__APPLE__)
 
 Timer::Timer(uint16_t _timeDelta) : timeDelta(_timeDelta), lastTime(steady_clock::now()) {}
 
@@ -39,7 +39,7 @@ bool Timer::reached() {
 void Timer::reset() {
   #if defined (__AVR)
   currentTime = millis();
-  #elif defined (__linux)
+  #elif defined(__linux) || defined(__APPLE__)
   currentTime = steady_clock::now();
   #endif
 

@@ -50,7 +50,7 @@ class AraCommander {
 
     #if defined (__AVR)
     AraIndicator indicator{10000};
-    #elif defined(__linux)
+    #elif defined(__linux) || defined(__APPLE__)
     AraIndicator indicator{};
     #endif
     

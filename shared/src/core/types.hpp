@@ -1,6 +1,6 @@
 #pragma once
 
-#if defined (__linux)
+#if defined(__linux) || defined(__APPLE__)
 #include <stdint.h>
 #endif
 

@@ -1,0 +1,15 @@
+{
+    "configurations": [
+        {
+            "name": "Ara",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "DEBUG"
+            ],
+            "compilerPath": "/opt/homebrew/bin/g++-14"
+        }
+    ],
+    "version": 4
+}

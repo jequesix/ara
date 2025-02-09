@@ -1,7 +1,7 @@
 #pragma once
 
 
-#if defined(__linux)
+#if defined(__linux) || defined(__APPLE__)
 #include <cstring>
 #endif
 
@@ -16,7 +16,7 @@ class FastQueue {
     FastQueue(uint16_t numElements) {
       #if defined(__AVR)
       constrain(numElements, (uint8_t)1, (uint16_t)INT16_MAX);
-      #elif defined(__linux)
+      #elif defined(__linux) || defined(__APPLE__)
       if (numElements > INT16_MAX) numElements = INT16_MAX;
       else if (numElements < 1) numElements = 1;
       #endif
