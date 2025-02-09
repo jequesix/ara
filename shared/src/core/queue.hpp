@@ -1,8 +1,7 @@
 #pragma once
 
-#if defined(__AVR)
-#include <Arduino.h>
-#elif defined(__linux)
+
+#if defined(__linux)
 #include <cstring>
 #endif
 

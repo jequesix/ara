@@ -101,7 +101,7 @@ void AraCommander::execCmd() {
   AraCmd* cmd = cmdQueue.get();
   if (cmd == nullptr) return;
 
-  ModuleNode currentModuleNode = moduleNodes[cmd->calleeId];
+  ModuleNode& currentModuleNode = moduleNodes[cmd->calleeId];
 
   if (!currentModuleNode.isBuzy) {
     switch (cmd->status) {

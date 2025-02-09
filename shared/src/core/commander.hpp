@@ -17,7 +17,7 @@ class AraCommander {
     AraCommander(uint8_t _numModules);
     ~AraCommander();
 
-    bool addModule(Module* module, bool isRecurrent);
+    bool addModule(Module* module, bool isRecurrent = false);
 
     bool run();
 
